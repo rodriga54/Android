@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DrawOnCanvas</string>
+    <string name="draw_label">Draw</string>
+    <string name="up_label">+</string>
+    <string name="down_label">-</string>
+    <string name="start_level">1</string>
+
+    <string name="black_setting">Black</string>
+    <string name="red_setting">Red</string>
+    <string name="green_setting">Green</string>
+    <string name="blue_setting">Blue</string>
+</resources>

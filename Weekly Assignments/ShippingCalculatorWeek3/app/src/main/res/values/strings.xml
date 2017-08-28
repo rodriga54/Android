@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shipping Calculator Week3</string>
+    <string name="totalString">$0.00</string>
+    <string name="addCostString">$0.00</string>
+    <string name="bastCostString">$0.00</string>
+    <string name="ouncesString" />
+</resources>

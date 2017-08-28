@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Week5 App2</string>
+    <string name="experiment1">onCreate is called upon launch</string>
+    <string name="experiment2">Pause the activity by pressing the Home button</string>
+    <string name="experiment3">Restart the application from the launcher</string>
+    <string name="experiment4">Rotate the device to destroy and create the activity again</string>
+
+    <string name="createMsg">The activity has been created ... onCreate()</string>
+    <string name="startMsg">The activity has been launched ... onStart()</string>
+    <string name="resumeMsg">The activity is now in the foreground and running ... onResume()</string>
+    <string name="pauseMsg">Another activity is in front of this activity ... onPause()</string>
+    <string name="stopMsg">The activity is no longer visible on the screen ... onStop()</string>
+    <string name="restartMsg">The activity is restarting after being stopped ... onRestart()</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.niu.z1758468.supermario.MainActivity">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/oneupBtn"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/power1up"
+        android:onClick="onOneUp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/powerupBtn"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/powerup"
+        android:onClick="onPowerUp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/starBtn"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/star"
+        android:onClick="onStar" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/coinBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/coin"
+        android:onClick="onCoin" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/fireballBtn"
+        android:layout_alignTop="@+id/starBtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/fireball"
+        android:onClick="onFireball" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/bulletBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/bullet"
+        android:nestedScrollingEnabled="false"
+        android:onClick="onBullet" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">calc app week2</string>
+    <string name="Addition">+</string>
+    <string name="Minus">-</string>
+    <string name="Multi">*</string>
+    <string name="Divide">/</string>
+    <string name="clearString">Clear</string>
+</resources>

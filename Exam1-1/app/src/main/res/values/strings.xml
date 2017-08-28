@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Exam 1</string>
+    <string name="radioGroupLabel">Find the area of</string>
+    <string name="triangleStr">Triangle</string>
+    <string name="circleStr">Circle</string>
+    <string name="ellipseStr">Ellipse</string>
+    <string name="mainButtonLabel">Do Calculation</string>
+    <string name="mainHint">Calculated area will display here</string>
+    <string name="title_activity_calculate">Calculate</string>
+</resources>
